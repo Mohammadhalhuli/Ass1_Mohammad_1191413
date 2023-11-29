@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            style="@style/textview_style1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complete information about this type" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/type_TextView"
+            style="@style/textview_style1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:text="Type" />
+
+        <TextView
+            android:id="@+id/size_TextView"
+            style="@style/textview_style1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:text="Size" />
+
+        <TextView
+            android:id="@+id/color_TextView"
+            style="@style/textview_style1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:text="Color" />
+
+        <TextView
+            android:id="@+id/description_TextView"
+            style="@style/textview_style1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:text="Description" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            >
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:layout_margin="16dp"
+            android:background="@color/green"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:layout_margin="16dp"
+            android:background="@color/red"
+            android:text="Delete" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:layout_margin="16dp"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="Back" />
+</androidx.appcompat.widget.LinearLayoutCompat>
